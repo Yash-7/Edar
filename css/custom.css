@@ -1,0 +1,69 @@
+/* Your custom css code goes here */
+.headerClass{
+    padding-top: 40px;
+    z-index:1;
+    height: 100vh;
+    background:linear-gradient(to right,#17ead9 0,#6078ea 100%);
+}
+#change{
+    padding:5px;
+    font-size:25px;
+    font-weight: 400;
+    border-radius: 5px;
+    background:rgb(48, 16, 16);
+}
+.col-md-3{
+    display: inline-block;
+    margin-left:-4px;
+}
+.col-md-3 img{
+    width:100%;
+    height:auto;
+}
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 0;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+body .carousel-indicators li{
+    display: initial;
+    background-color:rgb(27, 2, 2);
+}
+body .carousel-indicators .active{
+    background-color:rgb(172, 21, 21);
+}
+
+body .no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+#ftr{
+    background: url('../img/footer.jpeg');
+    background-size: cover;
+    padding-top: 35vh;
+}
+#ir{
+    position: relative;
+    text-align:center; 
+    width: 30%;
+}
+#mid{
+    position: relative;
+    width: 100%;
+}
+#left{
+    position: absolute;
+    width: 45%;
+    left: 16px;
+    top: 1px;
+}
+#right{
+    position: absolute;
+    width: 45%;
+    right: 16px;
+    top: 1px;
+}

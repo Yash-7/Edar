@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Edar Revamp the learning</title>
+    <meta name="description" content="The world of learning">
+    <meta name="keywords" content="Education, Augmented reality, Simulation, Schools">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    <script src="./index.js" async></script>
+  </head>
+  <body>
+    
+
+
+  <!-- START: header -->
+  <header role="banner" class="headerClass" id ="landing">
+    <div class="container-fluid">
+      <!-- <div class="row"> -->
+        <!-- <a href="index.html" class="probootstrap-logo">Sublime<span>.</span></a> -->
+        
+        <a href="index.html" class="probootstrap-logo"><img src="img/edarlogowhite.png" height="60" width="120"/></a>
+
+        <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
+        <div class="mobile-menu-overlay"></div>
+
+        <nav role="navigation" class="probootstrap-nav hidden-xs">
+          <ul class="probootstrap-main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <!-- <li><a href="pricing.html">Pricing</a></li> -->
+            <li><a href="#">Tour</a></li>
+            <li><a href="login.html">Log in</a></li>
+            <!-- <li class="probootstrap-cta"><a href="signup.html">Sign up</a></li> -->
+          </ul>
+          <div class="extra-text visible-xs">
+            <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
+            <h5>Social</h5>
+            <ul class="social-buttons">
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-instagram2"></i></a></li>
+            </ul>
+            <p><small>&copy; Copyright 2018. All Rights Reserved.</small></p>
+          </div>
+        </nav>
+
+        <section class="probootstrap-intro" style="padding: 4em 0 3em;" >
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <br><br><br>
+                <h1 class="probootstrap-animate"><br>Learn it Your Way</h1>
+                <div class="probootstrap-subtitle probootstrap-animate">
+                  <h2>Explore, Experiment and Learn with <span id="change"><span id="text">AR</span></span></h2>
+                </div>
+                <!-- <p class="watch-intro probootstrap-animate"><a href="https://vimeo.com/45830194" class="popup-vimeo">Watch the intro <i class="icon-play2"></i></a></p> -->
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <!-- <section class="ir">
+          <div class="container" id="ir">
+            <img src="img/mid.jpeg" alt="mid" id="mid">
+            <img src="img/l.jpeg" alt="l" id="left">
+            <img src="img/r.jpeg" alt="r" id="right">
+          </div>
+        </section> -->
+        
+          
+        
+      <!-- </div> -->
+    </div>  
+  </header>
+  
+  <section class="" style="padding: 4em 0 5em 0;background: rgb(245, 245, 245);text-align: center;">
+    <h2 class="lead" style="letter-spacing: 0.15em;">BROUGHT TO YOU BY A TEAM FROM</h2>
+    <img src="img/IIT-logo.png" width ="15%" alt="IIT Madras">
+  </section>
+
+
+
+  <!-- START: section -->
+  <section class="probootstrap-section probootstrap-section-extra" style="padding: 4em 0 1em 0;">
+    <div class="container-fluid probootstrap-absolute">
+      <div class="row">
+        <div class="col-md-7 col-md-push-7 probootstrap-animate" data-animate-effect="fadeInRight">
+          <img src="gifs/111.gif" alt="" height="400px" class="shadow-left">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 section-heading probootstrap-animate">
+          <h2>Individualized guidance</h2>
+          <p class="lead">We give comprehensive analysis of the individual students on their conceptual understanding.This helps in assessment of their strengths and weaknesses. 
+            Analytics on the interaction with the voice assistant and assesment tests helps teachers to assist the students at an individual level.Every student needs special attention-EdarLabs makes it happen! </p>
+          
+          <!-- <blockquote class="probootstrap-quote">
+            <figure class="probootstrap-quote-logo uber">
+             <img src="img/uber.png" alt="" class="img-responsive">
+            </figure>
+            <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+            <p class="probootstrap-quote-author"><img src="img/person_1.jpg" alt=""> Chris Worth, Uber</p>
+          </blockquote> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: section -->
+
+  <!-- START: section -->
+  <section class="probootstrap-section probootstrap-section-extra" style="padding: 2em 0">
+    <div class="container-fluid probootstrap-absolute">
+      <div class="row">
+        <div class="col-md-8 probootstrap-animate" data-animate-effect="fadeInLeft">
+          <img src="gifs/22.gif" alt="" class="img-responsive shadow-right">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 col-md-push-6 section-heading probootstrap-animate">
+          <h2>We amplify teaching effectiveness</h2>
+          <p class="lead">EdarLabs facilitates teachers to effectively convey the conceptual knowledge to
+             students.We focus on hybrid teaching method which is a blend of both teacher-centered and student
+             centred teaching method.Teacher plays an important role in our architecture unlike other digital
+              teaching methods.</p>
+          <!-- <blockquote class="probootstrap-quote">
+            <figure class="probootstrap-quote-logo facebook">
+             <img src="img/facebook.png" alt="" class="img-responsive">
+            </figure>
+            <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+            <p class="probootstrap-quote-author"><img src="img/person_5.jpg" alt=""> Janet Morris, Facebook</p>
+          </blockquote> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: section -->
+
+  <!-- START: section -->
+  <section class="probootstrap-section probootstrap-section-extra last" style="padding: 1em 0 4em 0;">
+    <div class="container-fluid probootstrap-absolute">
+      <div class="row">
+        <div class="col-md-7 col-md-push-6 probootstrap-animate" data-animate-effect="fadeInRight">
+          <img src="gifs/33.gif" alt="" class="img-responsive shadow-left">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 section-heading probootstrap-animate">
+          <h2>We deepen students’ understanding</h2>
+          <p class="lead">EdarLabs offers interactive conceptual simulations which helps students to analyse
+             and have a comprehensive understanding.We improve the student's interpreting and analyzing skills through the interactive simulations and voice assistant encourages the students to come up with their own answers but not “mug up”.
+ </p>
+          
+          <!-- <blockquote class="probootstrap-quote">
+            <figure class="probootstrap-quote-logo twitter">
+             <img src="img/twitter.png" alt="" class="img-responsive">
+            </figure>
+            <p>&ldquo;A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.&rdquo;</p>
+            <p class="probootstrap-quote-author"><img src="img/person_7.jpg" alt=""> Jessa Sy, Twitter</p>
+          </blockquote> -->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END: section -->
+
+  <!--Carousel-->
+  <section class="probootstrap-section last" style="background: rgb(241, 241, 241);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 section-heading probootstrap-animate">
+            <h2>Testimonials</h2>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item probootstrap-animate" data-ride="carousel">
+            <!--Indicators-->
+            <!-- <ol class="carousel-indicators">
+              <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+              <li data-target="#multi-item-example" data-slide-to="1"></li>
+            </ol> -->
+            <!--/.Indicators-->
+          
+            <!--Slides-->
+            <div class="container carousel-inner no-padding">
+          
+              <!--First slide-->
+              <div class="carousel-item active">
+          
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/carousel/T1.png"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+          
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/carousel/T2.png"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+          
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/carousel/T3.png"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card mb-2">
+                      <img class="card-img-top"
+                        src="img/carousel/T4.png" alt="Card image cap">
+                      
+                    </div>
+                  </div>
+              </div>
+              <!--/.First slide-->
+          
+              <!-- Second slide-->
+              <!-- <div class="carousel-item">
+          
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/carousel/1.jpeg"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+          
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/carousel/1.jpeg"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+          
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/carousel/1.jpeg"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/carousel/1.jpeg" alt="Card image cap">
+                    
+                  </div>
+                </div>
+              </div> -->
+              <!--/.Second slide -->
+          
+              
+              <!-- <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+                <i class='fas fa-angle-left' style='font-size:48px;color: black;'></i>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+                <i class='fas fa-angle-right' style='font-size:48px;color: #000;'></i>
+                <span class="sr-only">Next</span>
+              </a> -->
+            </div>
+            <!--/.Slides-->
+          
+          </div>
+          <!--/.Carousel Wrapper-->
+      </div>
+    </div>
+    
+    
+  </section>
+
+  <!-- Images Carousel -->
+  <section class="probootstrap-section last" style="background: rgb(231, 231, 231);">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 col-md-5 section-heading probootstrap-animate">
+            <h2>Gallery</h2><br>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <!--Carousel Wrapper-->
+        <div id="multi-image-example" class="carousel slide carousel-multi-item probootstrap-animate" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+              <li data-target="#multi-image-example" data-slide-to="0" class="active"></li>
+              <li data-target="#multi-image-example" data-slide-to="1"></li>
+            </ol>
+            <!--/.Indicators-->
+          
+            <!--Slides-->
+            <div class="container carousel-inner no-padding">
+          
+              <!--First slide-->
+              <div class="carousel-item active">
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/imgCar/1.jpg"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/imgCar/2.jpg"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/imgCar/3.jpg"
+                      alt="Card image cap">
+                  </div>
+                </div>
+                
+              </div>
+              <!--/.First slide-->
+          
+              <!-- Second slide-->
+              <div class="carousel-item">
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/imgCar/4.jpg"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/imgCar/5.jpg"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+          
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top"
+                      src="img/imgCar/6.jpg"
+                      alt="Card image cap">
+                    
+                  </div>
+                </div>
+                
+              </div>
+              <!--/.Second slide -->
+          
+              
+              <a class="carousel-control-prev" href="#multi-image-example" role="button" data-slide="prev">
+                <i class='fas fa-angle-left' style='font-size:48px;color: white;'></i>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#multi-image-example" role="button" data-slide="next">
+                <i class='fas fa-angle-right' style='font-size:48px;color: white;'></i>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <!--/.Slides-->
+          
+          </div>
+          <!--/.Carousel Wrapper-->
+      </div>
+    </div>
+    
+    
+  </section>
+
+<!-- START: section  custom -->
+<!-- <section class="probootstrap-section probootstrap-section-colored">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 section-heading mb50 text-center probootstrap-animate ">
+            <h2>10000+ <br> Subscribers </h2>
+        </div>
+        <div class="col-md-6 section-heading mb50 text-center probootstrap-animate">
+            <h2>100 <br> Schools </h2>
+        </div>
+        </div>
+    </div>
+</section> -->
+
+  <!-- START: section -->
+  <!-- <section class="probootstrap-section probootstrap-section-colored">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 section-heading mb50 text-center probootstrap-animate">
+          <h2>More Benefits</h2>
+          <p class="lead">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <h3 class="heading-with-icon"><i class="icon-heart2"></i> <span>We bring emotion</span></h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <h3 class="heading-with-icon"><i class="icon-rocket"></i> <span>We guide companies</span></h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <h3 class="heading-with-icon"><i class="icon-image"></i> <span>We design extraordinary</span></h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+        <div class="clearfix visible-md-block"></div>
+        <div class="col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <h3 class="heading-with-icon"><i class="icon-briefcase"></i> <span>We bring emotion</span></h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+        <div class="col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <h3 class="heading-with-icon"><i class="icon-chat"></i> <span>We guide companies</span></h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 probootstrap-animate">
+          <h3 class="heading-with-icon"><i class="icon-colours"></i> <span>We design extraordinary</span></h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        </div>
+        <div class="clearfix visible-sm-block"></div>
+      </div>
+    </div>
+  </section> -->
+  <!-- END: section -->
+
+  <!-- <section class="probootstrap-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 section-heading mb50 text-center">
+          <h2>Our Products</h2>
+          <p class="lead">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h3 class="mb30">We bring emotion</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h3 class="mb30">We guide companies</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <h3 class="mb30">We design extraordinary</h3>
+          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+          <p><a href="#" class="link-with-icon">Learn More <i class=" icon-chevron-right"></i></a></p>
+        </div>
+      </div>
+    </div>
+  </section> -->
+  <!-- END: section -->
+  
+  <!-- START: footer -->
+  <footer role="contentinfo" id="ftr">
+    <div class="container" id="ftrText">
+      <div class="row" >
+        <div class="col-md-6">
+          <div class="probootstrap-footer-widget">
+            <h3 style="color: black;">About Us</h3>
+            <p style="color: white;">Hi there,<br>
+              We are an IIT Madras based startup passionately working  to optimize the learning ecosystem in schools with an experiential learning app leveraging our expertise in AR and AI.We believe our experiential learning app has the potential to trigger creativity and  comprehensive understanding among the students and also makes teaching more effective.
+              <br><br>
+              Welcome aboard,Let's build a better tomorrow!
+              </p>
+            <p><a href="#" class="link-with-icon" style="color: rgb(0, 1, 2);">Learn More <i class=" icon-chevron-right"></i></a></p>
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
+          <div class="probootstrap-footer-widget">
+            <h3>Blog</h3>
+            <ul class="probootstrap-blog-list">
+              <li>
+                <a href="#">
+                  <figure><img src="img/img_2.jpg" alt="" class="img-responsive"></figure>
+                  <div class="text">
+                    <h4>River named Duden flows</h4>
+                    <p>A small river named Duden flows by their place</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure><img src="img/img_3.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                  <div class="text">
+                    <h4>River named Duden flows</h4>
+                    <p>A small river named Duden flows by their place</p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <figure><img src="img/img_2.jpg" alt="Free Bootstrap Template by uicookies.com" class="img-responsive"></figure>
+                  <div class="text">
+                    <h4>River named Duden flows</h4>
+                    <p>A small river named Duden flows by their place</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+        <div class="col-md-4 col-md-offset-2">
+          <div class="probootstrap-footer-widget">
+            <h3 style="color: black;">Contact</h3>
+            <ul class="probootstrap-contact-info" style="color: black;">
+              <li><i class="icon-location2"></i> <span>IIT Madras Chennai 600036 IN</span></li>
+              <li><i class="icon-mail"></i><span>support@edarlabs.in</span></li>
+              <li><i class="icon-phone2"></i><span>+91 9940115571 , 9666247520, 9790756214</span></li>
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+      <div class="row mt40">
+        <div class="col-md-12 text-center">
+          <ul class="probootstrap-footer-social" >
+            <li><a href="" style="color: white;"><i class="icon-twitter"></i></a></li>
+            <li><a href="" style="color: white;"><i class="icon-facebook"></i></a></li>
+            <li><a href="" style="color: white;"><i class="icon-instagram2"></i></a></li>
+          </ul>
+          <p style="color: white;">
+            <small>&copy; 2018 <a href="#" style="color: rgb(7, 7, 7);" target="_blank">Edar</a>.
+               All Rights Reserved. <br> Designed &amp; Developed by 
+               <a href="https://github.com/lkoshale/" style="color: rgb(19, 19, 19);" target="_blank">Lokesh Koshale</a> Images:Yashwant</small>
+          </p>
+          
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END: footer -->
+
+
+
+  <script src="js/scripts.min.js"></script>
+  <script src="js/main.min.js"></script>
+  <script src="js/custom.js"></script>
+  </body>
+</html>
